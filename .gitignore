@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.DS_Store
+data/raw/
+output/
+output_captions/
+test*/
+**/raw/
+.claude/
+*.pdf

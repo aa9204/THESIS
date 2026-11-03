@@ -1,0 +1,501 @@
+{
+  "version": "base",
+  "relations": [
+    {
+      "name": "is_subclass_of",
+      "definition": "Every X is a kind of Y (class to broader class, e.g. FIR system -> LTI system)."
+    },
+    {
+      "name": "is_instance_of",
+      "definition": "X is a particular example of the class Y."
+    },
+    {
+      "name": "is_special_case_of",
+      "definition": "X is a specific case of the more general Y under extra conditions."
+    },
+    {
+      "name": "is_generalization_of",
+      "definition": "X is the more general form of Y."
+    },
+    {
+      "name": "is_equivalent_to",
+      "definition": "X and Y are the same thing, different names for it, or interchangeable."
+    },
+    {
+      "name": "is_defined_as",
+      "definition": "X is defined to be Y (a definition)."
+    },
+    {
+      "name": "is_component_of",
+      "definition": "X is a part of Y."
+    },
+    {
+      "name": "is_decomposed_into",
+      "definition": "X can be broken into the components Y."
+    },
+    {
+      "name": "consists_of",
+      "definition": "X is built from the elements Y."
+    },
+    {
+      "name": "corresponds_to",
+      "definition": "X is paired with Y across domains or representations, without being identical."
+    },
+    {
+      "name": "is_counterpart_of",
+      "definition": "X is the discrete-time (or continuous-time) analogue of Y."
+    },
+    {
+      "name": "is_dual_of",
+      "definition": "X and Y mirror each other under a duality (time/frequency, analysis/synthesis)."
+    },
+    {
+      "name": "is_inverse_of",
+      "definition": "X undoes Y (inverse system, inverse transform, accumulation/difference)."
+    },
+    {
+      "name": "is_analogous_to",
+      "definition": "X plays a role similar to Y in another setting."
+    },
+    {
+      "name": "is_compared_with",
+      "definition": "X is contrasted with Y."
+    },
+    {
+      "name": "implies",
+      "definition": "If X holds then Y follows."
+    },
+    {
+      "name": "requires_condition",
+      "definition": "X holds, exists or is valid only when condition Y is met."
+    },
+    {
+      "name": "is_necessary_for",
+      "definition": "Y cannot hold unless X holds."
+    },
+    {
+      "name": "is_sufficient_for",
+      "definition": "If X holds then Y holds."
+    },
+    {
+      "name": "holds_for",
+      "definition": "Statement or property X is valid for the class or range Y."
+    },
+    {
+      "name": "does_not_hold_for",
+      "definition": "X fails for the class or range Y."
+    },
+    {
+      "name": "reduces_to",
+      "definition": "X becomes the simpler form Y in a special case or after simplification."
+    },
+    {
+      "name": "is_bounded_by",
+      "definition": "X is limited above or below by Y."
+    },
+    {
+      "name": "is_approximated_by",
+      "definition": "X is approximated by Y."
+    },
+    {
+      "name": "has_property",
+      "definition": "X has the attribute or characteristic Y (causal, linear, stable, zero phase...)."
+    },
+    {
+      "name": "lacks_property",
+      "definition": "X does not have the property Y."
+    },
+    {
+      "name": "preserves",
+      "definition": "Operation or system X leaves the quantity Y unchanged."
+    },
+    {
+      "name": "changes",
+      "definition": "Operation or system X alters the quantity Y."
+    },
+    {
+      "name": "characterized_by",
+      "definition": "X is described or determined by Y (e.g. an LTI system by its impulse response)."
+    },
+    {
+      "name": "exhibits",
+      "definition": "X shows the behaviour Y (ringing, overshoot, aliasing)."
+    },
+    {
+      "name": "is_represented_by",
+      "definition": "X can be expressed or written as Y (an expansion, form or representation)."
+    },
+    {
+      "name": "is_expressed_in_terms_of",
+      "definition": "X is written using Y."
+    },
+    {
+      "name": "has_fourier_transform",
+      "definition": "Y is the Fourier transform of X."
+    },
+    {
+      "name": "has_laplace_transform",
+      "definition": "Y is the Laplace transform of X."
+    },
+    {
+      "name": "has_z_transform",
+      "definition": "Y is the z-transform of X."
+    },
+    {
+      "name": "has_inverse_transform",
+      "definition": "Y is the inverse transform of X."
+    },
+    {
+      "name": "is_transform_pair_with",
+      "definition": "X and Y are a transform pair."
+    },
+    {
+      "name": "has_fourier_series",
+      "definition": "Y is the Fourier series of periodic signal X."
+    },
+    {
+      "name": "has_fourier_coefficient",
+      "definition": "Y is a Fourier series coefficient of periodic signal X."
+    },
+    {
+      "name": "is_derivative_of",
+      "definition": "X is the derivative of Y."
+    },
+    {
+      "name": "is_integral_of",
+      "definition": "X is the integral of Y."
+    },
+    {
+      "name": "is_first_difference_of",
+      "definition": "X is the first difference of Y."
+    },
+    {
+      "name": "is_running_sum_of",
+      "definition": "X is the running sum (accumulation) of Y."
+    },
+    {
+      "name": "is_running_integral_of",
+      "definition": "X is the running integral of Y."
+    },
+    {
+      "name": "is_convolved_with",
+      "definition": "X is convolved with Y."
+    },
+    {
+      "name": "convolution_produces",
+      "definition": "Convolving X produces Y."
+    },
+    {
+      "name": "is_multiplied_by",
+      "definition": "X is multiplied by Y (time or frequency domain)."
+    },
+    {
+      "name": "is_sum_of",
+      "definition": "X is the sum of Y."
+    },
+    {
+      "name": "is_product_of",
+      "definition": "X is the product of Y."
+    },
+    {
+      "name": "is_reciprocal_of",
+      "definition": "X is the reciprocal of Y."
+    },
+    {
+      "name": "is_shifted_in_time_by",
+      "definition": "X is delayed or advanced by Y."
+    },
+    {
+      "name": "is_scaled_by",
+      "definition": "X is scaled in time or amplitude by Y."
+    },
+    {
+      "name": "is_reflected_by",
+      "definition": "X is time-reversed by Y."
+    },
+    {
+      "name": "is_conjugate_of",
+      "definition": "X is the complex conjugate of Y."
+    },
+    {
+      "name": "equals",
+      "definition": "X is numerically equal to Y."
+    },
+    {
+      "name": "has_input",
+      "definition": "Y is an input of system X."
+    },
+    {
+      "name": "produces_output",
+      "definition": "System X produces output Y."
+    },
+    {
+      "name": "is_response_to",
+      "definition": "X is the response of a system to input Y."
+    },
+    {
+      "name": "has_impulse_response",
+      "definition": "Y is the impulse response of system X."
+    },
+    {
+      "name": "has_step_response",
+      "definition": "Y is the step response of system X."
+    },
+    {
+      "name": "has_frequency_response",
+      "definition": "Y is the frequency response of system X."
+    },
+    {
+      "name": "has_transfer_function",
+      "definition": "Y is the system function H(s) or H(z) of system X."
+    },
+    {
+      "name": "governed_by_equation",
+      "definition": "X obeys the differential or difference equation Y."
+    },
+    {
+      "name": "has_eigenfunction",
+      "definition": "Y is an eigenfunction of system or operation X."
+    },
+    {
+      "name": "has_eigenvalue",
+      "definition": "Y is the eigenvalue of X for its eigenfunction."
+    },
+    {
+      "name": "is_cascade_of",
+      "definition": "System X is a series connection of Y."
+    },
+    {
+      "name": "is_parallel_combination_of",
+      "definition": "System X is a parallel connection of Y."
+    },
+    {
+      "name": "has_order",
+      "definition": "System or filter X has order Y."
+    },
+    {
+      "name": "has_time_constant",
+      "definition": "System X has time constant Y."
+    },
+    {
+      "name": "has_damping_ratio",
+      "definition": "System X has damping ratio Y."
+    },
+    {
+      "name": "has_natural_frequency",
+      "definition": "System X has natural frequency Y."
+    },
+    {
+      "name": "has_gain",
+      "definition": "X has gain Y."
+    },
+    {
+      "name": "has_group_delay",
+      "definition": "X has group delay Y."
+    },
+    {
+      "name": "has_memory_of",
+      "definition": "System X depends on past values Y."
+    },
+    {
+      "name": "has_magnitude_spectrum",
+      "definition": "Y is the magnitude spectrum of X."
+    },
+    {
+      "name": "has_phase_spectrum",
+      "definition": "Y is the phase spectrum of X."
+    },
+    {
+      "name": "has_fundamental_frequency",
+      "definition": "Y is the fundamental frequency of periodic signal X."
+    },
+    {
+      "name": "has_harmonic",
+      "definition": "Y is a harmonic of X."
+    },
+    {
+      "name": "satisfies_parseval_relation",
+      "definition": "X obeys Parseval's relation (energy equal in both domains)."
+    },
+    {
+      "name": "converges_to",
+      "definition": "X (series, sequence, integral) converges to Y."
+    },
+    {
+      "name": "has_bandwidth",
+      "definition": "X has bandwidth Y."
+    },
+    {
+      "name": "has_window_function",
+      "definition": "Y is the window function applied to X."
+    },
+    {
+      "name": "exhibits_gibbs_phenomenon",
+      "definition": "Partial sums of X overshoot near discontinuities."
+    },
+    {
+      "name": "is_filtered_by",
+      "definition": "Signal X is passed through filter Y."
+    },
+    {
+      "name": "has_passband",
+      "definition": "Filter X passes the band Y."
+    },
+    {
+      "name": "has_stopband",
+      "definition": "Filter X rejects the band Y."
+    },
+    {
+      "name": "has_cutoff_frequency",
+      "definition": "Filter X has cutoff frequency Y."
+    },
+    {
+      "name": "attenuates",
+      "definition": "X reduces the amplitude of Y."
+    },
+    {
+      "name": "passes",
+      "definition": "Filter X lets Y through."
+    },
+    {
+      "name": "has_region_of_convergence",
+      "definition": "The transform X converges for the set of values Y (ROC)."
+    },
+    {
+      "name": "has_pole",
+      "definition": "Y is a pole of X."
+    },
+    {
+      "name": "has_zero",
+      "definition": "Y is a zero of X."
+    },
+    {
+      "name": "evaluated_via_pole_zero_plot",
+      "definition": "X is evaluated or sketched from its pole-zero plot Y."
+    },
+    {
+      "name": "determines_location_of",
+      "definition": "X fixes where Y lies (e.g. poles in the s-plane)."
+    },
+    {
+      "name": "is_sampled_by",
+      "definition": "Signal X is sampled by process Y."
+    },
+    {
+      "name": "produces_samples",
+      "definition": "Sampling X yields the samples Y."
+    },
+    {
+      "name": "requires_sampling_rate",
+      "definition": "Sampling X requires at least rate Y."
+    },
+    {
+      "name": "can_cause_aliasing",
+      "definition": "Operation X can produce aliasing Y."
+    },
+    {
+      "name": "is_reconstructed_by",
+      "definition": "The sampled signal X is recovered by process Y."
+    },
+    {
+      "name": "is_interpolated_by",
+      "definition": "X is interpolated by method Y."
+    },
+    {
+      "name": "is_decimated_by",
+      "definition": "X is decimated (downsampled) by Y."
+    },
+    {
+      "name": "is_upsampled_by",
+      "definition": "X is upsampled by Y."
+    },
+    {
+      "name": "is_modulated_by",
+      "definition": "Carrier or signal X is modulated by Y."
+    },
+    {
+      "name": "is_demodulated_by",
+      "definition": "The modulated signal X is recovered by demodulation method Y."
+    },
+    {
+      "name": "has_carrier",
+      "definition": "Modulated signal X uses carrier Y."
+    },
+    {
+      "name": "is_multiplexed_with",
+      "definition": "X shares a channel with Y by multiplexing."
+    },
+    {
+      "name": "has_sideband",
+      "definition": "Modulated signal X has sideband Y."
+    },
+    {
+      "name": "has_modulation_index",
+      "definition": "Modulated signal X has modulation index Y."
+    },
+    {
+      "name": "affects_stability_of",
+      "definition": "X determines or influences the stability of Y (includes tests for stability)."
+    },
+    {
+      "name": "is_stabilized_by",
+      "definition": "System X is made stable by Y."
+    },
+    {
+      "name": "has_feedback_path",
+      "definition": "System X has feedback path Y."
+    },
+    {
+      "name": "has_open_loop_transfer_function",
+      "definition": "Y is the open-loop system function of X."
+    },
+    {
+      "name": "has_closed_loop_transfer_function",
+      "definition": "Y is the closed-loop system function of X."
+    },
+    {
+      "name": "has_gain_margin",
+      "definition": "Y is the gain margin of X."
+    },
+    {
+      "name": "has_phase_margin",
+      "definition": "Y is the phase margin of X."
+    },
+    {
+      "name": "is_used_for",
+      "definition": "X is used to achieve Y."
+    },
+    {
+      "name": "is_used_in_analysis_of",
+      "definition": "X is a tool for analysing Y."
+    },
+    {
+      "name": "is_applied_to",
+      "definition": "X is applied to Y."
+    },
+    {
+      "name": "is_computed_by",
+      "definition": "X is calculated using method Y."
+    },
+    {
+      "name": "has_solution",
+      "definition": "Y is the solution of equation or problem X."
+    },
+    {
+      "name": "is_derived_from",
+      "definition": "X is obtained from Y."
+    },
+    {
+      "name": "is_illustrated_by",
+      "definition": "X is shown by example or figure Y."
+    },
+    {
+      "name": "causes",
+      "definition": "X produces the effect Y."
+    },
+    {
+      "name": "results_in",
+      "definition": "X leads to the outcome Y."
+    }
+  ]
+}

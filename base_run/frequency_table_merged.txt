@@ -1,0 +1,76 @@
+1230 triples from 283 chunks; 81 distinct relations (0 OTHER:*), 43 ontology relations never used
+rank  relation                             triples  %trip   cum%  %chunks  keep
+   1  has_property                             130  10.57  10.57    30.74  *   (+ exhibits:22)
+   2  is_equivalent_to                         114   9.27  19.84    29.68  *   (+ equals:22)
+   3  is_defined_as                            106   8.62  28.46    23.67  *
+   4  is_used_for                              101   8.21  36.67     25.8  *   (+ is_used_in_analysis_of:26; is_applied_to:4)
+   5  corresponds_to                            75    6.1  42.76    23.32  *   (+ is_counterpart_of:41)
+   6  requires_condition                        66   5.37  48.13    18.02  *
+   7  is_represented_by                         59    4.8  52.93    16.61  *   (+ is_expressed_in_terms_of:17)
+   8  causes                                    45   3.66  56.59    11.66  *   (+ results_in:20)
+   9  has_region_of_convergence                 42   3.41   60.0     8.13  *
+  10  is_subclass_of                            41   3.33  63.33    11.31  *
+  11  consists_of                               33   2.68  66.02    10.95  *   (+ is_decomposed_into:14)
+  12  characterized_by                          25   2.03  68.05     7.07  *
+  13  has_fourier_transform                     24   1.95   70.0     7.77  *
+  14  implies                                   23   1.87  71.87     6.36  *   (+ is_sufficient_for:5)
+  15  lacks_property                            19   1.54  73.41     6.71  *
+  16  has_eigenfunction                         19   1.54  74.96     6.01  *
+  17  preserves                                 15   1.22  76.18     3.89  *
+  18  is_product_of                             14   1.14  77.32     4.95  *
+  19  has_impulse_response                      14   1.14  78.46     4.24  *
+  20  is_instance_of                            13   1.06  79.51     2.47  *
+  21  reduces_to                                12   0.98  80.49     3.18  *
+  22  is_inverse_of                             11   0.89  81.38     3.89  *
+  23  holds_for                                 10   0.81   82.2     2.83  *
+  24  has_transfer_function                     10   0.81  83.01     2.83  *
+  25  passes                                    10   0.81  83.82     2.12  *
+  26  affects_stability_of                      10   0.81  84.63     3.18  *
+  27  has_frequency_response                     9   0.73  85.37     2.83  *
+  28  is_derived_from                            8   0.65  86.02     2.83  *
+  29  is_sum_of                                  8   0.65  86.67     2.83  *
+  30  is_approximated_by                         8   0.65  87.32     2.47  *
+  31  attenuates                                 8   0.65  87.97     2.12  *
+  32  is_derivative_of                           7   0.57  88.54     2.47  *
+  33  converges_to                               7   0.57  89.11     1.77  *
+  34  is_analogous_to                            7   0.57  89.67     2.47  *
+  35  is_computed_by                             6   0.49  90.16     2.12  *
+  36  governed_by_equation                       6   0.49  90.65     1.77  *
+  37  has_fundamental_frequency                  5   0.41  91.06     1.41  *
+  38  is_dual_of                                 5   0.41  91.46     1.06  *
+  39  is_reconstructed_by                        5   0.41  91.87     1.77  *
+  40  is_demodulated_by                          5   0.41  92.28     1.41  *
+  41  is_compared_with                           5   0.41  92.68     1.77  
+  42  has_laplace_transform                      5   0.41  93.09     1.41  
+  43  is_bounded_by                              5   0.41   93.5     1.77  
+  44  is_special_case_of                         4   0.33  93.82     1.41  
+  45  is_running_sum_of                          4   0.33  94.15     1.41  
+  46  is_running_integral_of                     4   0.33  94.47     1.41  
+  47  does_not_hold_for                          4   0.33   94.8     1.41  
+  48  is_generalization_of                       4   0.33  95.12     1.41  
+  49  is_first_difference_of                     3   0.24  95.37     1.06  
+  50  has_input                                  3   0.24  95.61     1.06  
+  51  is_response_to                             3   0.24  95.85     1.06  
+  52  has_time_constant                          3   0.24   96.1     1.06  
+  53  evaluated_via_pole_zero_plot               3   0.24  96.34     1.06  
+  54  is_reciprocal_of                           3   0.24  96.59     1.06  
+  55  has_eigenvalue                             2   0.16  96.75     0.35  
+  56  exhibits_gibbs_phenomenon                  2   0.16  96.91     0.71  
+  57  changes                                    2   0.16  97.07     0.71  
+  58  has_fourier_coefficient                    2   0.16  97.24     0.71  
+  59  has_fourier_series                         2   0.16   97.4     0.71  
+  60  is_transform_pair_with                     2   0.16  97.56     0.71  
+  61  has_magnitude_spectrum                     2   0.16  97.72     0.35  
+  62  has_phase_spectrum                         2   0.16  97.89     0.35  
+  63  requires_sampling_rate                     2   0.16  98.05     0.71  
+  64  has_cutoff_frequency                       2   0.16  98.21     0.71  
+  65  is_filtered_by                             2   0.16  98.37     0.35  
+  66  has_bandwidth                              2   0.16  98.54     0.71  
+  67  has_pole                                   2   0.16   98.7     0.71  
+  68  has_z_transform                            2   0.16  98.86     0.71  
+  69  has_closed_loop_transfer_function          2   0.16  99.02     0.35  
+  70  produces_output                            1   0.08  99.11     0.35  
+
+KEEP 40 relations covering 92.3% of triples (top_n=40, min_chunk_share=0.0)
+Unused: is_decomposed_into, is_counterpart_of, is_necessary_for, is_sufficient_for, exhibits, is_expressed_in_terms_of, has_inverse_transform, is_integral_of, is_convolved_with, convolution_produces, is_multiplied_by, is_shifted_in_time_by, is_scaled_by, is_reflected_by, is_conjugate_of, equals, is_parallel_combination_of, has_order, has_group_delay, has_memory_of, has_harmonic, has_window_function, has_passband, has_stopband, has_zero, is_sampled_by, produces_samples, is_decimated_by, is_upsampled_by, is_modulated_by, has_carrier, is_multiplexed_with, has_sideband, has_modulation_index, has_feedback_path, has_open_loop_transfer_function, has_gain_margin, has_phase_margin, is_used_in_analysis_of, is_applied_to, has_solution, is_illustrated_by, results_in
+Wrote base_run/relation_frequency.csv | .json | other_relations.csv

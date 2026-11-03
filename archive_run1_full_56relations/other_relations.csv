@@ -1,0 +1,113 @@
+relation,n_triples,n_chunks,example
+OTHER:corresponds_to,11,7,differentiation in time domain -> multiplication by jw in frequency domain
+OTHER:reduces_to,8,5,z-transform -> discrete-time Fourier transform
+OTHER:is_derivative_of,4,4,continuous-time unit impulse -> continuous-time unit step
+OTHER:is_first_difference_of,3,3,discrete-time unit impulse -> discrete-time unit step
+OTHER:is_running_sum_of,3,3,discrete-time unit step -> discrete-time unit impulse
+OTHER:causes,3,2,nonconstant group delay -> dispersion
+OTHER:does_not_contain,3,3,region of convergence -> pole
+OTHER:determines_stability_of,3,3,root-locus plot -> system
+OTHER:is_running_integral_of,2,2,continuous-time unit step -> continuous-time unit impulse
+OTHER:reverses,2,2,time reversal -> Fourier series coefficients
+OTHER:is_defined_as,2,2,first-difference operation -> x[n] - x[n - 1]
+OTHER:becomes_in_frequency_domain,2,1,differential equation -> algebraic operation
+OTHER:implements,2,2,analog-to-digital converter -> continuous-to-discrete-time conversion
+OTHER:performs,2,2,discrete-time to continuous-time conversion -> interpolation
+OTHER:is_bounded_by,2,2,region of convergence -> pole
+OTHER:used_in_analysis_of,2,2,convolution property for Laplace transforms -> LTI system
+OTHER:useful_for_checking,2,1,initial-value theorem -> Laplace transform calculations
+OTHER:holds_for,2,1,initial-value theorem -> unilateral Laplace transform
+OTHER:consists_of,2,2,region of convergence -> ring centered about the origin
+OTHER:is_discrete_time_counterpart_of,2,2,inverse z-transform -> inverse Laplace transform
+OTHER:determines_inverse_of,2,1,partial-fraction expansion -> z-transform
+OTHER:is_used_for,2,2,power-series expansion -> nonrational z-transforms
+OTHER:generates,2,2,positive feedback -> oscillating signals
+OTHER:defined_for,1,1,discrete-time signal -> integer values
+OTHER:is_idealization_of,1,1,unit impulse -> short pulse
+OTHER:has_derivative,1,1,unit step -> unit impulse
+OTHER:produces_bounded_output_for,1,1,stable system -> bounded input
+OTHER:produces_unbounded_output_for,1,1,unstable system -> bounded input
+OTHER:is_time_reversed_and_shifted_version_of,1,1,sequence h[n - k] -> impulse response h[k]
+OTHER:is_described_in_terms_of,1,1,convolution -> sliding one sequence past another
+OTHER:has_inverse_system,1,1,invertible LTI system -> LTI system
+OTHER:has_lti_inverse,1,1,invertible LTI system -> LTI system
+OTHER:is_first_derivative_of,1,1,unit impulse response -> unit step response
+OTHER:has_discrete_time_counterpart,1,1,linear constant-coefficient differential equation -> linear constant-coefficient difference equation
+OTHER:implemented_using,1,1,integrator -> operational amplifier
+OTHER:represents,1,1,a0 -> average value of a signal
+OTHER:exhibits,1,1,truncated Fourier series -> Gibbs phenomenon
+OTHER:preserves_period_of,1,1,time shift -> periodic signal
+OTHER:preserves_magnitude_of,1,1,time shift -> Fourier series coefficients
+OTHER:changes_period_of,1,1,time scaling -> periodic signal
+OTHER:requires_number_of_coefficients,1,1,continuous-time periodic signal -> infinite Fourier coefficients
+OTHER:defined_as,1,1,first-difference operation -> x[n] - x[n - 1]
+OTHER:limit_of,1,1,aperiodic signal -> periodic signal
+OTHER:is_limit_of,1,1,aperiodic signal -> periodic signal
+OTHER:are_samples_of,1,1,Fourier coefficients -> Fourier transform
+OTHER:proportional_to_samples_of,1,1,Fourier coefficients -> Fourier transform
+OTHER:is_limiting_form_of,1,1,rectangular pulse signal -> periodic square wave
+OTHER:is_constructed_from,1,1,Fourier transform of a periodic signal -> Fourier series representation
+OTHER:introduces,1,1,time shift -> phase shift
+OTHER:introduces_phase_shift,1,1,time shift -> linear phase shift
+OTHER:maps_convolution_to,1,1,Fourier transform -> product of Fourier transforms
+OTHER:used_in_evaluating,1,1,partial-fraction expansion -> inverse transform
+OTHER:used_in,1,1,partial-fraction expansion -> evaluating inverse transforms
+OTHER:referred_to_as,1,1,multiplication of two signals -> amplitude modulation
+OTHER:has_application_in,1,1,multiplication property of the Fourier transform -> amplitude modulation
+OTHER:formed_by,1,1,time-expanded discrete-time signal -> insertion of k - 1 zeros between successive samples
+OTHER:is_extension_of,1,1,z-transform -> Fourier transform
+OTHER:becomes_algebraic_in,1,1,convolution operation -> frequency domain
+OTHER:equals_negative_slope_of,1,1,group delay -> phase
+OTHER:caused_by,1,1,dispersion -> nonconstant group delay
+OTHER:inversely_related_to,1,1,rise time -> bandwidth
+OTHER:trades_off_with,1,1,transition band -> settling time
+OTHER:has_wider_transition_band_than,1,1,Butterworth filter -> elliptic filter
+OTHER:measures,1,1,quality Q -> sharpness of the peak
+OTHER:is_building_block_for,1,1,second-order system -> LTI system
+OTHER:is_counterpart_of,1,1,discrete-time second-order system -> underdamped second-order system
+OTHER:controls,1,1,undamped natural frequency -> filter cutoff frequency
+OTHER:attenuates,1,1,moving-average filter -> short-term fluctuations
+OTHER:has_complexity_dependent_on,1,1,FIR filter -> impulse response length
+OTHER:imparts,1,1,linear phase -> constant delay
+OTHER:equals,1,1,Nyquist frequency -> one-half the Nyquist rate
+OTHER:approximates,1,1,zero-order hold -> ideal lowpass filter
+OTHER:requires_implementation_of,1,1,ideal band-limited interpolation -> ideal lowpass filter
+OTHER:avoids_requirement_of,1,1,asynchronous demodulation -> phase synchronization
+OTHER:has_application,1,1,frequency-division multiplexing -> telephone communication
+OTHER:demultiplexed_by,1,1,time-division multiplexing -> time gating
+OTHER:assigns_time_intervals_to,1,1,time-division multiplexing -> individual signals
+OTHER:assigns_frequency_intervals_to,1,1,frequency-division multiplexing -> individual signals
+OTHER:modulates_amplitude_of,1,1,pulse-amplitude modulation system -> sequence of pulses
+OTHER:is_dictated_by,1,1,choice of pulse shape -> intersymbol interference
+OTHER:has_bandwidth_proportional_to,1,1,wideband FM -> amplitude of the modulating signal
+OTHER:is_basis_for,1,1,discrete-time sinusoidal AM -> frequency-division multiplexing
+OTHER:interpreted_as,1,1,Laplace transform -> Fourier transform
+OTHER:determined_via,1,1,inverse Laplace transform -> partial-fraction expansion
+OTHER:is_laplace_transform_evaluated_on,1,1,Fourier transform -> jω-axis
+OTHER:controls_speed_of_response,1,1,time constant -> first-order system
+OTHER:causes_reversal_of,1,1,time reversal -> region of convergence
+OTHER:affects,1,1,pole-zero cancellation -> region of convergence
+OTHER:results_in,1,1,time reversal -> reversal of the region of convergence
+OTHER:used_for,1,1,partial-fraction expansion -> inverse Laplace transform
+OTHER:calculates,1,1,initial-value theorem -> initial value
+OTHER:constrains_region_of_convergence,1,1,convolution property -> intersection of regions of convergence
+OTHER:replaces_time_domain_operations_with,1,1,Laplace transform -> algebraic operations
+OTHER:leads_to,1,1,partial-fraction expansion -> parallel-form representation
+OTHER:serves_as_building_block_for,1,1,low-order systems -> higher order systems
+OTHER:used_for_solving,1,1,unilateral Laplace transform -> linear constant-coefficient differential equation
+OTHER:is_generalization_of,1,1,Laplace transform -> Fourier transform
+OTHER:has_rational_z_transform,1,1,linear combination of exponentials -> rational z-transform
+OTHER:evaluated_via,1,1,inverse z-transform -> contour integration
+OTHER:discrete_time_counterpart_of,1,1,inverse z-transform -> inverse Laplace transform
+OTHER:used_to_determine,1,1,partial-fraction expansion -> inverse z-transform
+OTHER:corresponds_to_rotation_in,1,1,multiplication by a complex exponential sequence -> z-plane
+OTHER:used_to_solve,1,1,unilateral z-transform -> linear constant-coefficient difference equation
+OTHER:plots,1,1,root-locus method -> closed-loop poles
+OTHER:calculated_from,1,1,angle of a rational Laplace transform -> poles and zeros
+OTHER:starts_at,1,1,branch of the root locus -> pole of G(s)H(s)
+OTHER:occur_in,1,1,complex poles and zeros -> complex-conjugate pairs
+OTHER:provides_location_of,1,1,root-locus technique -> closed-loop poles
+OTHER:uses_same_root_locus_sketching_techniques_as,1,1,discrete-time feedback system -> continuous-time feedback system
+OTHER:determines_location_of,1,1,root-locus technique -> closed-loop poles
+OTHER:applies_to,1,1,Nyquist stability criterion -> nonrational system functions
+OTHER:increases_negative_phase_of,1,1,time delay -> frequency response

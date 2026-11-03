@@ -1,0 +1,23 @@
+{
+  "merge": {
+    "equals": "is_equivalent_to",
+    "is_used_in_analysis_of": "is_used_for",
+    "is_applied_to": "is_used_for",
+    "results_in": "causes",
+    "is_expressed_in_terms_of": "is_represented_by",
+    "is_decomposed_into": "consists_of",
+    "exhibits": "has_property",
+    "is_sufficient_for": "implies",
+    "is_counterpart_of": "corresponds_to"
+  },
+  "definitions": {
+    "is_equivalent_to": "X and Y are the same thing, different names for it, or equal and interchangeable (includes numerical equality).",
+    "is_used_for": "X is used for, applied to, or is a tool for analysing Y.",
+    "causes": "X causes or leads to Y (includes 'results in').",
+    "is_represented_by": "X can be expressed or written as Y (an expansion, form or representation).",
+    "consists_of": "X is made of, or can be decomposed into, the parts Y.",
+    "has_property": "X has, or exhibits, the attribute, characteristic or behaviour Y (causal, linear, stable, zero phase, ringing...).",
+    "implies": "If X holds then Y follows (includes 'X is sufficient for Y').",
+    "corresponds_to": "X is paired with, or is the discrete-time/continuous-time counterpart of, Y; related but not identical."
+  }
+}

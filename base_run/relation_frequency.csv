@@ -1,0 +1,82 @@
+rank,relation,n_triples,pct_triples,cum_pct_triples,n_chunks,pct_chunks,in_ontology,keep,includes,example
+1,has_property,130,10.57,10.57,87,30.74,True,True,exhibits:22,continuous-time signal -> continuous independent variable
+2,is_equivalent_to,114,9.27,19.84,84,29.68,True,True,equals:22,discrete-time sequence -> discrete-time signal
+3,is_defined_as,106,8.62,28.46,67,23.67,True,True,,fundamental period -> smallest positive value of the period T
+4,is_used_for,101,8.21,36.67,73,25.8,True,True,is_used_in_analysis_of:26; is_applied_to:4,Euler's relation -> relating complex exponentials and sinusoids
+5,corresponds_to,75,6.1,42.76,66,23.32,True,True,is_counterpart_of:41,continuous-time unit step function -> discrete-time unit step function
+6,requires_condition,66,5.37,48.13,51,18.02,True,True,,discrete-time signal -> integer values of n
+7,is_represented_by,59,4.8,52.93,47,16.61,True,True,is_expressed_in_terms_of:17,signal -> functions of one or more independent variables
+8,causes,45,3.66,56.59,33,11.66,True,True,results_in:20,energy dissipation -> stability of physical systems
+9,has_region_of_convergence,42,3.41,60.0,23,8.13,True,True,,unit impulse -> entire s-plane
+10,is_subclass_of,41,3.33,63.33,32,11.31,True,True,,continuous-time signal -> signal
+11,consists_of,33,2.68,66.02,31,10.95,True,True,is_decomposed_into:14,signal -> sum of an even signal and an odd signal
+12,characterized_by,25,2.03,68.05,20,7.07,True,True,,time-invariant system -> fixed behavior and characteristics over time
+13,has_fourier_transform,24,1.95,70.0,22,7.77,True,True,,aperiodic signal -> X(jw)
+14,implies,23,1.87,71.87,18,6.36,True,True,is_sufficient_for:5,finite total energy -> zero average power
+15,lacks_property,19,1.54,73.41,19,6.71,True,True,,time scaling system -> time invariance
+16,has_eigenfunction,19,1.54,74.96,17,6.01,True,True,,continuous-time LTI system -> complex exponential signal
+17,preserves,15,1.22,76.18,11,3.89,True,True,,transformation of the independent variable -> signal shape
+18,is_product_of,14,1.14,77.32,14,4.95,True,True,,damped sinusoid -> sinusoidal signal and decaying exponential
+19,has_impulse_response,14,1.14,78.46,12,4.24,True,True,,parallel combination of LTI systems -> sum of individual unit impulse responses
+20,is_instance_of,13,1.06,79.51,7,2.47,True,True,,speech signal -> continuous-time signal
+21,reduces_to,12,0.98,80.49,9,3.18,True,True,,Fourier series sum -> integral
+22,is_inverse_of,11,0.89,81.38,11,3.89,True,True,,first difference system -> accumulator
+23,holds_for,10,0.81,82.2,8,2.83,True,True,,superposition property -> linear system
+24,has_transfer_function,10,0.81,83.01,8,2.83,True,True,,continuous-time LTI system -> H(s)
+25,passes,10,0.81,83.82,6,2.12,True,True,,lowpass filter -> low frequencies
+26,affects_stability_of,10,0.81,84.63,9,3.18,True,True,,locations of the poles -> causal LTI system with rational system function
+27,has_frequency_response,9,0.73,85.37,8,2.83,True,True,,continuous-time LTI system -> H(jw)
+28,is_derived_from,8,0.65,86.02,8,2.83,True,True,,discrete-time signal -> sampling of continuous-time signals
+29,is_sum_of,8,0.65,86.67,8,2.83,True,True,,output of a parallel interconnection -> outputs of component systems
+30,is_approximated_by,8,0.65,87.32,7,2.47,True,True,,continuous-time signal -> staircase approximation
+31,attenuates,8,0.65,87.97,6,2.12,True,True,,lowpass filter -> higher frequencies
+32,is_derivative_of,7,0.57,88.54,7,2.47,True,True,,continuous-time unit impulse function -> continuous-time unit step function
+33,converges_to,7,0.57,89.11,5,1.77,True,True,,energy in the approximation error -> zero as N approaches infinity
+34,is_analogous_to,7,0.57,89.67,7,2.47,True,True,,synthesis equation for aperiodic signals -> synthesis equation for periodic signals
+35,is_computed_by,6,0.49,90.16,6,2.12,True,True,,"convolution -> shifting h[n-k], multiplying by x[k], and summing over k"
+36,governed_by_equation,6,0.49,90.65,5,1.77,True,True,,continuous-time LTI system -> linear constant-coefficient differential equation
+37,has_fundamental_frequency,5,0.41,91.06,4,1.41,True,True,,constant signal -> zero
+38,is_dual_of,5,0.41,91.46,3,1.06,True,True,,continuous-time Fourier transform analysis equation -> continuous-time Fourier transform synthesis equation
+39,is_reconstructed_by,5,0.41,91.87,5,1.77,True,True,,sampled signal -> ideal lowpass filter
+40,is_demodulated_by,5,0.41,92.28,4,1.41,True,True,,modulated signal with complex exponential carrier -> multiplying by a complex exponential
+41,is_compared_with,5,0.41,92.68,5,1.77,True,False,,asynchronous modulation-demodulation system -> synchronous system
+42,has_laplace_transform,5,0.41,93.09,4,1.41,True,False,,unit step -> 1/s
+43,is_bounded_by,5,0.41,93.5,5,1.77,True,False,,ROC of a rational Laplace transform -> poles
+44,is_special_case_of,4,0.33,93.82,4,1.41,True,False,,real exponential signal -> complex exponential signal
+45,is_running_sum_of,4,0.33,94.15,4,1.41,True,False,,discrete-time unit step -> discrete-time unit impulse
+46,is_running_integral_of,4,0.33,94.47,4,1.41,True,False,,continuous-time unit step function -> continuous-time unit impulse function
+47,does_not_hold_for,4,0.33,94.8,4,1.41,True,False,,interchanging the order of systems in a cascade -> nonlinear systems
+48,is_generalization_of,4,0.33,95.12,4,1.41,True,False,,Laplace transform -> continuous-time Fourier transform
+49,is_first_difference_of,3,0.24,95.37,3,1.06,True,False,,discrete-time unit impulse -> discrete-time unit step
+50,has_input,3,0.24,95.61,3,1.06,True,False,,continuous-time system -> continuous-time signal
+51,is_response_to,3,0.24,95.85,3,1.06,True,False,,impulse response -> unit impulse
+52,has_time_constant,3,0.24,96.1,3,1.06,True,False,,first-order continuous-time system -> parameter T
+53,evaluated_via_pole_zero_plot,3,0.24,96.34,3,1.06,True,False,,Fourier transform -> pole-zero pattern
+54,is_reciprocal_of,3,0.24,96.59,3,1.06,True,False,,distance from the pole of a first-order system to the origin -> time constant
+55,has_eigenvalue,2,0.16,96.75,1,0.35,True,False,,complex exponential signal -> H(s)
+56,exhibits_gibbs_phenomenon,2,0.16,96.91,2,0.71,True,False,,truncated Fourier series approximation of a discontinuous signal -> discontinuities
+57,changes,2,0.16,97.07,2,0.71,True,False,,time scaling -> period of the underlying signal
+58,has_fourier_coefficient,2,0.16,97.24,2,0.71,True,False,,real and even signal -> real and even Fourier coefficients
+59,has_fourier_series,2,0.16,97.4,2,0.71,True,False,,discrete-time periodic signal -> discrete-time Fourier series
+60,is_transform_pair_with,2,0.16,97.56,2,0.71,True,False,,rectangular pulse -> sinc function
+61,has_magnitude_spectrum,2,0.16,97.72,1,0.35,True,False,,real-valued sequence -> even magnitude
+62,has_phase_spectrum,2,0.16,97.89,1,0.35,True,False,,real-valued sequence -> odd phase function
+63,requires_sampling_rate,2,0.16,98.05,2,0.71,True,False,,band-limited signal -> Nyquist rate
+64,has_cutoff_frequency,2,0.16,98.21,2,0.71,True,False,,continuous-time filter -> wc
+65,is_filtered_by,2,0.16,98.37,1,0.35,True,False,,double-sideband signal -> bandpass filter
+66,has_bandwidth,2,0.16,98.54,2,0.71,True,False,,narrowband FM signal -> bandwidth of the modulating signal
+67,has_pole,2,0.16,98.7,2,0.71,True,False,,second-order system with damping ratio greater than 1 -> real axis
+68,has_z_transform,2,0.16,98.86,2,0.71,True,False,,linear combination of real or complex exponentials -> rational function
+69,has_closed_loop_transfer_function,2,0.16,99.02,1,0.35,True,False,,continuous-time LTI feedback system -> H(s) / (1 + G(s)H(s))
+70,produces_output,1,0.08,99.11,1,0.35,True,False,,continuous-time system -> continuous-time signal
+71,satisfies_parseval_relation,1,0.08,99.19,1,0.35,True,False,,continuous-time periodic signal -> Parseval's relation
+72,has_step_response,1,0.08,99.27,1,0.35,True,False,,first-order RC filter -> (1 - e^(-t/RC)) u(t)
+73,has_damping_ratio,1,0.08,99.35,1,0.35,True,False,,second-order system -> parameter ζ
+74,has_natural_frequency,1,0.08,99.43,1,0.35,True,False,,second-order system -> parameter ω_n
+75,is_cascade_of,1,0.08,99.51,1,0.35,True,False,,second-order system with real poles -> two first-order systems
+76,is_interpolated_by,1,0.08,99.59,1,0.35,True,False,,discrete-time signal -> band-limited interpolation
+77,can_cause_aliasing,1,0.08,99.67,1,0.35,True,False,,discrete-time sampling -> frequency-domain aliasing
+78,has_gain,1,0.08,99.76,1,0.35,True,False,,lowpass filter for synchronous demodulation -> 2
+79,is_component_of,1,0.08,99.84,1,0.35,True,False,,intermediate-frequency stage -> radio receiver
+80,is_stabilized_by,1,0.08,99.92,1,0.35,True,False,,unstable system -> feedback
+81,determines_location_of,1,0.08,100.0,1,0.35,True,False,,root-locus technique -> closed-loop poles

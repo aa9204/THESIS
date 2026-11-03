@@ -1,0 +1,162 @@
+rank,relation,n_triples,pct_triples,cum_pct_triples,n_chunks,pct_chunks,in_ontology,keep,example
+1,has_property,177,17.0,17.0,114,40.28,True,True,finite-energy signal -> zero average power
+2,is_subclass_of,71,6.82,23.82,44,15.55,True,True,continuous-time signal -> signal
+3,is_equivalent_to,66,6.34,30.16,52,18.37,True,True,discrete-time signal -> discrete-time sequence
+4,is_represented_by,59,5.67,35.83,43,15.19,True,True,continuous-time complex exponential signal -> complex exponential equation
+5,has_region_of_convergence,57,5.48,41.31,32,11.31,True,True,Laplace transform -> region of convergence
+6,requires_condition,52,5.0,46.3,40,14.13,True,True,discrete-time complex exponential -> rational ratio of frequency to 2pi
+7,characterized_by,41,3.94,50.24,35,12.37,True,True,time-invariant system -> fixed behavior over time
+8,governed_by_equation,38,3.65,53.89,30,10.6,True,True,RC circuit -> first-order linear differential equation
+9,has_fourier_transform,35,3.36,57.25,29,10.25,True,True,impulse response -> frequency response
+10,has_impulse_response,30,2.88,60.13,25,8.83,True,True,LTI system -> unit impulse response
+11,has_eigenfunction,22,2.11,62.25,19,6.71,True,True,LTI system -> complex exponential signal
+12,is_decomposed_into,20,1.92,64.17,19,6.71,True,True,signal -> even signal and odd signal
+13,affects_stability_of,20,1.92,66.09,15,5.3,True,True,pole location -> LTI system
+14,is_special_case_of,14,1.34,67.44,13,4.59,True,True,response of RC circuit -> decaying exponential signal
+15,is_inverse_of,14,1.34,68.78,14,4.95,True,True,accumulator -> first difference operation
+16,implies,13,1.25,70.03,11,3.89,True,True,nonzero average power -> infinite energy
+17,is_reconstructed_by,13,1.25,71.28,13,4.59,True,True,continuous-time signal -> samples
+18,OTHER:corresponds_to,11,1.06,72.33,7,2.47,False,False,differentiation in time domain -> multiplication by jw in frequency domain
+19,has_transfer_function,11,1.06,73.39,10,3.53,True,True,first-order hold -> first-order hold transfer function
+20,has_frequency_response,9,0.86,74.26,8,2.83,True,True,differentiating filter -> H(jw) = jw
+21,has_pole,9,0.86,75.12,8,2.83,True,True,rational Laplace transform -> roots of denominator polynomial
+22,has_fourier_coefficient,8,0.77,75.89,4,1.41,True,True,real and even signal -> real and even sequence
+23,is_dual_of,8,0.77,76.66,6,2.12,True,True,modulation property -> convolution property
+24,OTHER:reduces_to,8,0.77,77.43,5,1.77,False,False,z-transform -> discrete-time Fourier transform
+25,produces_output,7,0.67,78.1,5,1.77,True,True,RLC circuit -> damped sinusoid
+26,is_multiplied_by,7,0.67,78.77,6,2.12,True,True,continuous-time signal -> continuous-time impulse
+27,satisfies_parseval_relation,7,0.67,79.44,6,2.12,True,True,continuous-time periodic signal -> Parseval's relation
+28,has_input,6,0.58,80.02,5,1.77,True,True,continuous-time system -> continuous-time signal
+29,is_demodulated_by,6,0.58,80.6,6,2.12,True,True,modulated signal -> complex exponential signal
+30,is_stabilized_by,6,0.58,81.17,3,1.06,True,True,unstable system -> feedback
+31,converges_to,5,0.48,81.65,3,1.06,True,True,Fourier series -> average of the values on either side of the discontinuity
+32,OTHER:is_derivative_of,4,0.38,82.04,4,1.41,False,False,continuous-time unit impulse -> continuous-time unit step
+33,is_response_to,4,0.38,82.42,4,1.41,True,True,unit impulse response -> discrete-time unit impulse
+34,is_instance_of,4,0.38,82.8,4,1.41,True,True,unit impulse -> singularity function
+35,is_modulated_by,4,0.38,83.19,4,1.41,True,True,signal -> sinusoidal amplitude modulation
+36,is_filtered_by,4,0.38,83.57,4,1.41,True,True,signal -> lowpass filter
+37,has_carrier,4,0.38,83.96,4,1.41,True,True,AM-DSB/WC -> carrier signal
+38,OTHER:is_first_difference_of,3,0.29,84.25,3,1.06,False,False,discrete-time unit impulse -> discrete-time unit step
+39,OTHER:is_running_sum_of,3,0.29,84.53,3,1.06,False,False,discrete-time unit step -> discrete-time unit impulse
+40,has_magnitude_spectrum,3,0.29,84.82,3,1.06,True,True,real signal -> even function
+41,has_phase_spectrum,3,0.29,85.11,3,1.06,True,False,real signal -> odd function
+42,OTHER:causes,3,0.29,85.4,2,0.71,False,False,nonconstant group delay -> dispersion
+43,can_cause_aliasing,3,0.29,85.69,3,1.06,True,False,discrete-time sampling -> frequency-domain aliasing
+44,has_zero,3,0.29,85.98,3,1.06,True,False,rational Laplace transform -> roots of numerator polynomial
+45,OTHER:does_not_contain,3,0.29,86.26,3,1.06,False,False,region of convergence -> pole
+46,evaluated_via_pole_zero_plot,3,0.29,86.55,2,0.71,True,False,Fourier transform -> pole-zero pattern
+47,has_closed_loop_transfer_function,3,0.29,86.84,2,0.71,True,False,continuous-time LTI feedback system -> Q(s) = H(s) / (1 + G(s)H(s))
+48,OTHER:determines_stability_of,3,0.29,87.13,3,1.06,False,False,root-locus plot -> system
+49,produces_samples,2,0.19,87.32,2,0.71,True,False,continuous-time signal -> discrete-time signal
+50,is_sampled_by,2,0.19,87.51,2,0.71,True,False,continuous-time signal -> sampling
+51,has_fundamental_frequency,2,0.19,87.7,2,0.71,True,False,discrete-time periodic signal -> 2pi over fundamental period
+52,OTHER:is_running_integral_of,2,0.19,87.9,2,0.71,False,False,continuous-time unit step -> continuous-time unit impulse
+53,OTHER:reverses,2,0.19,88.09,2,0.71,False,False,time reversal -> Fourier series coefficients
+54,OTHER:is_defined_as,2,0.19,88.28,2,0.71,False,False,first-difference operation -> x[n] - x[n - 1]
+55,OTHER:becomes_in_frequency_domain,2,0.19,88.47,1,0.35,False,False,differential equation -> algebraic operation
+56,OTHER:implements,2,0.19,88.66,2,0.71,False,False,analog-to-digital converter -> continuous-to-discrete-time conversion
+57,OTHER:performs,2,0.19,88.86,2,0.71,False,False,discrete-time to continuous-time conversion -> interpolation
+58,has_bandwidth,2,0.19,89.05,2,0.71,True,False,narrowband FM signal -> bandwidth of the modulating signal
+59,OTHER:is_bounded_by,2,0.19,89.24,2,0.71,False,False,region of convergence -> pole
+60,OTHER:used_in_analysis_of,2,0.19,89.43,2,0.71,False,False,convolution property for Laplace transforms -> LTI system
+61,OTHER:useful_for_checking,2,0.19,89.63,1,0.35,False,False,initial-value theorem -> Laplace transform calculations
+62,OTHER:holds_for,2,0.19,89.82,1,0.35,False,False,initial-value theorem -> unilateral Laplace transform
+63,OTHER:consists_of,2,0.19,90.01,2,0.71,False,False,region of convergence -> ring centered about the origin
+64,OTHER:is_discrete_time_counterpart_of,2,0.19,90.2,2,0.71,False,False,inverse z-transform -> inverse Laplace transform
+65,OTHER:determines_inverse_of,2,0.19,90.39,1,0.35,False,False,partial-fraction expansion -> z-transform
+66,OTHER:is_used_for,2,0.19,90.59,2,0.71,False,False,power-series expansion -> nonrational z-transforms
+67,OTHER:generates,2,0.19,90.78,2,0.71,False,False,positive feedback -> oscillating signals
+68,has_gain_margin,2,0.19,90.97,2,0.71,True,False,feedback system -> gain margin
+69,has_phase_margin,2,0.19,91.16,2,0.71,True,False,feedback system -> phase margin
+70,OTHER:defined_for,1,0.1,91.26,1,0.35,False,False,discrete-time signal -> integer values
+71,OTHER:is_idealization_of,1,0.1,91.35,1,0.35,False,False,unit impulse -> short pulse
+72,OTHER:has_derivative,1,0.1,91.45,1,0.35,False,False,unit step -> unit impulse
+73,OTHER:produces_bounded_output_for,1,0.1,91.55,1,0.35,False,False,stable system -> bounded input
+74,OTHER:produces_unbounded_output_for,1,0.1,91.64,1,0.35,False,False,unstable system -> bounded input
+75,OTHER:is_time_reversed_and_shifted_version_of,1,0.1,91.74,1,0.35,False,False,sequence h[n - k] -> impulse response h[k]
+76,OTHER:is_described_in_terms_of,1,0.1,91.83,1,0.35,False,False,convolution -> sliding one sequence past another
+77,OTHER:has_inverse_system,1,0.1,91.93,1,0.35,False,False,invertible LTI system -> LTI system
+78,OTHER:has_lti_inverse,1,0.1,92.03,1,0.35,False,False,invertible LTI system -> LTI system
+79,is_convolved_with,1,0.1,92.12,1,0.35,True,False,signal -> shifted impulse
+80,OTHER:is_first_derivative_of,1,0.1,92.22,1,0.35,False,False,unit impulse response -> unit step response
+81,OTHER:has_discrete_time_counterpart,1,0.1,92.32,1,0.35,False,False,linear constant-coefficient differential equation -> linear constant-coefficient difference equation
+82,OTHER:implemented_using,1,0.1,92.41,1,0.35,False,False,integrator -> operational amplifier
+83,OTHER:represents,1,0.1,92.51,1,0.35,False,False,a0 -> average value of a signal
+84,OTHER:exhibits,1,0.1,92.6,1,0.35,False,False,truncated Fourier series -> Gibbs phenomenon
+85,OTHER:preserves_period_of,1,0.1,92.7,1,0.35,False,False,time shift -> periodic signal
+86,OTHER:preserves_magnitude_of,1,0.1,92.8,1,0.35,False,False,time shift -> Fourier series coefficients
+87,OTHER:changes_period_of,1,0.1,92.89,1,0.35,False,False,time scaling -> periodic signal
+88,OTHER:requires_number_of_coefficients,1,0.1,92.99,1,0.35,False,False,continuous-time periodic signal -> infinite Fourier coefficients
+89,OTHER:defined_as,1,0.1,93.08,1,0.35,False,False,first-difference operation -> x[n] - x[n - 1]
+90,OTHER:limit_of,1,0.1,93.18,1,0.35,False,False,aperiodic signal -> periodic signal
+91,OTHER:is_limit_of,1,0.1,93.28,1,0.35,False,False,aperiodic signal -> periodic signal
+92,OTHER:are_samples_of,1,0.1,93.37,1,0.35,False,False,Fourier coefficients -> Fourier transform
+93,OTHER:proportional_to_samples_of,1,0.1,93.47,1,0.35,False,False,Fourier coefficients -> Fourier transform
+94,OTHER:is_limiting_form_of,1,0.1,93.56,1,0.35,False,False,rectangular pulse signal -> periodic square wave
+95,OTHER:is_constructed_from,1,0.1,93.66,1,0.35,False,False,Fourier transform of a periodic signal -> Fourier series representation
+96,OTHER:introduces,1,0.1,93.76,1,0.35,False,False,time shift -> phase shift
+97,OTHER:introduces_phase_shift,1,0.1,93.85,1,0.35,False,False,time shift -> linear phase shift
+98,OTHER:maps_convolution_to,1,0.1,93.95,1,0.35,False,False,Fourier transform -> product of Fourier transforms
+99,OTHER:used_in_evaluating,1,0.1,94.04,1,0.35,False,False,partial-fraction expansion -> inverse transform
+100,OTHER:used_in,1,0.1,94.14,1,0.35,False,False,partial-fraction expansion -> evaluating inverse transforms
+101,OTHER:referred_to_as,1,0.1,94.24,1,0.35,False,False,multiplication of two signals -> amplitude modulation
+102,OTHER:has_application_in,1,0.1,94.33,1,0.35,False,False,multiplication property of the Fourier transform -> amplitude modulation
+103,OTHER:formed_by,1,0.1,94.43,1,0.35,False,False,time-expanded discrete-time signal -> insertion of k - 1 zeros between successive samples
+104,OTHER:is_extension_of,1,0.1,94.52,1,0.35,False,False,z-transform -> Fourier transform
+105,OTHER:becomes_algebraic_in,1,0.1,94.62,1,0.35,False,False,convolution operation -> frequency domain
+106,OTHER:equals_negative_slope_of,1,0.1,94.72,1,0.35,False,False,group delay -> phase
+107,OTHER:caused_by,1,0.1,94.81,1,0.35,False,False,dispersion -> nonconstant group delay
+108,OTHER:inversely_related_to,1,0.1,94.91,1,0.35,False,False,rise time -> bandwidth
+109,OTHER:trades_off_with,1,0.1,95.0,1,0.35,False,False,transition band -> settling time
+110,OTHER:has_wider_transition_band_than,1,0.1,95.1,1,0.35,False,False,Butterworth filter -> elliptic filter
+111,OTHER:measures,1,0.1,95.2,1,0.35,False,False,quality Q -> sharpness of the peak
+112,OTHER:is_building_block_for,1,0.1,95.29,1,0.35,False,False,second-order system -> LTI system
+113,OTHER:is_counterpart_of,1,0.1,95.39,1,0.35,False,False,discrete-time second-order system -> underdamped second-order system
+114,OTHER:controls,1,0.1,95.49,1,0.35,False,False,undamped natural frequency -> filter cutoff frequency
+115,OTHER:attenuates,1,0.1,95.58,1,0.35,False,False,moving-average filter -> short-term fluctuations
+116,OTHER:has_complexity_dependent_on,1,0.1,95.68,1,0.35,False,False,FIR filter -> impulse response length
+117,OTHER:imparts,1,0.1,95.77,1,0.35,False,False,linear phase -> constant delay
+118,OTHER:equals,1,0.1,95.87,1,0.35,False,False,Nyquist frequency -> one-half the Nyquist rate
+119,OTHER:approximates,1,0.1,95.97,1,0.35,False,False,zero-order hold -> ideal lowpass filter
+120,OTHER:requires_implementation_of,1,0.1,96.06,1,0.35,False,False,ideal band-limited interpolation -> ideal lowpass filter
+121,OTHER:avoids_requirement_of,1,0.1,96.16,1,0.35,False,False,asynchronous demodulation -> phase synchronization
+122,OTHER:has_application,1,0.1,96.25,1,0.35,False,False,frequency-division multiplexing -> telephone communication
+123,OTHER:demultiplexed_by,1,0.1,96.35,1,0.35,False,False,time-division multiplexing -> time gating
+124,OTHER:assigns_time_intervals_to,1,0.1,96.45,1,0.35,False,False,time-division multiplexing -> individual signals
+125,OTHER:assigns_frequency_intervals_to,1,0.1,96.54,1,0.35,False,False,frequency-division multiplexing -> individual signals
+126,requires_sampling_rate,1,0.1,96.64,1,0.35,True,False,continuous-time signal -> Nyquist rate
+127,OTHER:modulates_amplitude_of,1,0.1,96.73,1,0.35,False,False,pulse-amplitude modulation system -> sequence of pulses
+128,OTHER:is_dictated_by,1,0.1,96.83,1,0.35,False,False,choice of pulse shape -> intersymbol interference
+129,OTHER:has_bandwidth_proportional_to,1,0.1,96.93,1,0.35,False,False,wideband FM -> amplitude of the modulating signal
+130,OTHER:is_basis_for,1,0.1,97.02,1,0.35,False,False,discrete-time sinusoidal AM -> frequency-division multiplexing
+131,OTHER:interpreted_as,1,0.1,97.12,1,0.35,False,False,Laplace transform -> Fourier transform
+132,OTHER:determined_via,1,0.1,97.21,1,0.35,False,False,inverse Laplace transform -> partial-fraction expansion
+133,OTHER:is_laplace_transform_evaluated_on,1,0.1,97.31,1,0.35,False,False,Fourier transform -> jω-axis
+134,OTHER:controls_speed_of_response,1,0.1,97.41,1,0.35,False,False,time constant -> first-order system
+135,OTHER:causes_reversal_of,1,0.1,97.5,1,0.35,False,False,time reversal -> region of convergence
+136,OTHER:affects,1,0.1,97.6,1,0.35,False,False,pole-zero cancellation -> region of convergence
+137,OTHER:results_in,1,0.1,97.69,1,0.35,False,False,time reversal -> reversal of the region of convergence
+138,OTHER:used_for,1,0.1,97.79,1,0.35,False,False,partial-fraction expansion -> inverse Laplace transform
+139,OTHER:calculates,1,0.1,97.89,1,0.35,False,False,initial-value theorem -> initial value
+140,OTHER:constrains_region_of_convergence,1,0.1,97.98,1,0.35,False,False,convolution property -> intersection of regions of convergence
+141,OTHER:replaces_time_domain_operations_with,1,0.1,98.08,1,0.35,False,False,Laplace transform -> algebraic operations
+142,OTHER:leads_to,1,0.1,98.17,1,0.35,False,False,partial-fraction expansion -> parallel-form representation
+143,OTHER:serves_as_building_block_for,1,0.1,98.27,1,0.35,False,False,low-order systems -> higher order systems
+144,OTHER:used_for_solving,1,0.1,98.37,1,0.35,False,False,unilateral Laplace transform -> linear constant-coefficient differential equation
+145,OTHER:is_generalization_of,1,0.1,98.46,1,0.35,False,False,Laplace transform -> Fourier transform
+146,OTHER:has_rational_z_transform,1,0.1,98.56,1,0.35,False,False,linear combination of exponentials -> rational z-transform
+147,OTHER:evaluated_via,1,0.1,98.66,1,0.35,False,False,inverse z-transform -> contour integration
+148,OTHER:discrete_time_counterpart_of,1,0.1,98.75,1,0.35,False,False,inverse z-transform -> inverse Laplace transform
+149,OTHER:used_to_determine,1,0.1,98.85,1,0.35,False,False,partial-fraction expansion -> inverse z-transform
+150,OTHER:corresponds_to_rotation_in,1,0.1,98.94,1,0.35,False,False,multiplication by a complex exponential sequence -> z-plane
+151,has_eigenvalue,1,0.1,99.04,1,0.35,True,False,complex exponential signal -> system function
+152,OTHER:used_to_solve,1,0.1,99.14,1,0.35,False,False,unilateral z-transform -> linear constant-coefficient difference equation
+153,OTHER:plots,1,0.1,99.23,1,0.35,False,False,root-locus method -> closed-loop poles
+154,OTHER:calculated_from,1,0.1,99.33,1,0.35,False,False,angle of a rational Laplace transform -> poles and zeros
+155,OTHER:starts_at,1,0.1,99.42,1,0.35,False,False,branch of the root locus -> pole of G(s)H(s)
+156,OTHER:occur_in,1,0.1,99.52,1,0.35,False,False,complex poles and zeros -> complex-conjugate pairs
+157,OTHER:provides_location_of,1,0.1,99.62,1,0.35,False,False,root-locus technique -> closed-loop poles
+158,OTHER:uses_same_root_locus_sketching_techniques_as,1,0.1,99.71,1,0.35,False,False,discrete-time feedback system -> continuous-time feedback system
+159,OTHER:determines_location_of,1,0.1,99.81,1,0.35,False,False,root-locus technique -> closed-loop poles
+160,OTHER:applies_to,1,0.1,99.9,1,0.35,False,False,Nyquist stability criterion -> nonrational system functions
+161,OTHER:increases_negative_phase_of,1,0.1,100.0,1,0.35,False,False,time delay -> frequency response

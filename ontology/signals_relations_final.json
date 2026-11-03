@@ -1,0 +1,251 @@
+{
+  "version": "final",
+  "relations": [
+    {
+      "name": "has_property",
+      "definition": "X has, or exhibits, the attribute, characteristic or behaviour Y (causal, linear, stable, zero phase, ringing...).",
+      "n_triples_base_run": 130,
+      "includes": "exhibits:22"
+    },
+    {
+      "name": "is_equivalent_to",
+      "definition": "X and Y are the same thing, different names for it, or equal and interchangeable (includes numerical equality).",
+      "n_triples_base_run": 114,
+      "includes": "equals:22"
+    },
+    {
+      "name": "is_defined_as",
+      "definition": "X is defined to be Y (a definition).",
+      "n_triples_base_run": 106,
+      "includes": ""
+    },
+    {
+      "name": "is_used_for",
+      "definition": "X is used for, applied to, or is a tool for analysing Y.",
+      "n_triples_base_run": 101,
+      "includes": "is_used_in_analysis_of:26; is_applied_to:4"
+    },
+    {
+      "name": "corresponds_to",
+      "definition": "X is paired with, or is the discrete-time/continuous-time counterpart of, Y; related but not identical.",
+      "n_triples_base_run": 75,
+      "includes": "is_counterpart_of:41"
+    },
+    {
+      "name": "requires_condition",
+      "definition": "X holds, exists or is valid only when condition Y is met.",
+      "n_triples_base_run": 66,
+      "includes": ""
+    },
+    {
+      "name": "is_represented_by",
+      "definition": "X can be expressed or written as Y (an expansion, form or representation).",
+      "n_triples_base_run": 59,
+      "includes": "is_expressed_in_terms_of:17"
+    },
+    {
+      "name": "causes",
+      "definition": "X causes or leads to Y (includes 'results in').",
+      "n_triples_base_run": 45,
+      "includes": "results_in:20"
+    },
+    {
+      "name": "has_region_of_convergence",
+      "definition": "The transform X converges for the set of values Y (ROC).",
+      "n_triples_base_run": 42,
+      "includes": ""
+    },
+    {
+      "name": "is_subclass_of",
+      "definition": "Every X is a kind of Y (class to broader class, e.g. FIR system -> LTI system).",
+      "n_triples_base_run": 41,
+      "includes": ""
+    },
+    {
+      "name": "consists_of",
+      "definition": "X is made of, or can be decomposed into, the parts Y.",
+      "n_triples_base_run": 33,
+      "includes": "is_decomposed_into:14"
+    },
+    {
+      "name": "characterized_by",
+      "definition": "X is described or determined by Y (e.g. an LTI system by its impulse response).",
+      "n_triples_base_run": 25,
+      "includes": ""
+    },
+    {
+      "name": "has_fourier_transform",
+      "definition": "Y is the Fourier transform of X.",
+      "n_triples_base_run": 24,
+      "includes": ""
+    },
+    {
+      "name": "implies",
+      "definition": "If X holds then Y follows (includes 'X is sufficient for Y').",
+      "n_triples_base_run": 23,
+      "includes": "is_sufficient_for:5"
+    },
+    {
+      "name": "lacks_property",
+      "definition": "X does not have the property Y.",
+      "n_triples_base_run": 19,
+      "includes": ""
+    },
+    {
+      "name": "has_eigenfunction",
+      "definition": "Y is an eigenfunction of system or operation X.",
+      "n_triples_base_run": 19,
+      "includes": ""
+    },
+    {
+      "name": "preserves",
+      "definition": "Operation or system X leaves the quantity Y unchanged.",
+      "n_triples_base_run": 15,
+      "includes": ""
+    },
+    {
+      "name": "is_product_of",
+      "definition": "X is the product of Y.",
+      "n_triples_base_run": 14,
+      "includes": ""
+    },
+    {
+      "name": "has_impulse_response",
+      "definition": "Y is the impulse response of system X.",
+      "n_triples_base_run": 14,
+      "includes": ""
+    },
+    {
+      "name": "is_instance_of",
+      "definition": "X is a particular example of the class Y.",
+      "n_triples_base_run": 13,
+      "includes": ""
+    },
+    {
+      "name": "reduces_to",
+      "definition": "X becomes the simpler form Y in a special case or after simplification.",
+      "n_triples_base_run": 12,
+      "includes": ""
+    },
+    {
+      "name": "is_inverse_of",
+      "definition": "X undoes Y (inverse system, inverse transform, accumulation/difference).",
+      "n_triples_base_run": 11,
+      "includes": ""
+    },
+    {
+      "name": "holds_for",
+      "definition": "Statement or property X is valid for the class or range Y.",
+      "n_triples_base_run": 10,
+      "includes": ""
+    },
+    {
+      "name": "has_transfer_function",
+      "definition": "Y is the system function H(s) or H(z) of system X.",
+      "n_triples_base_run": 10,
+      "includes": ""
+    },
+    {
+      "name": "passes",
+      "definition": "Filter X lets Y through.",
+      "n_triples_base_run": 10,
+      "includes": ""
+    },
+    {
+      "name": "affects_stability_of",
+      "definition": "X determines or influences the stability of Y (includes tests for stability).",
+      "n_triples_base_run": 10,
+      "includes": ""
+    },
+    {
+      "name": "has_frequency_response",
+      "definition": "Y is the frequency response of system X.",
+      "n_triples_base_run": 9,
+      "includes": ""
+    },
+    {
+      "name": "is_derived_from",
+      "definition": "X is obtained from Y.",
+      "n_triples_base_run": 8,
+      "includes": ""
+    },
+    {
+      "name": "is_sum_of",
+      "definition": "X is the sum of Y.",
+      "n_triples_base_run": 8,
+      "includes": ""
+    },
+    {
+      "name": "is_approximated_by",
+      "definition": "X is approximated by Y.",
+      "n_triples_base_run": 8,
+      "includes": ""
+    },
+    {
+      "name": "attenuates",
+      "definition": "X reduces the amplitude of Y.",
+      "n_triples_base_run": 8,
+      "includes": ""
+    },
+    {
+      "name": "is_derivative_of",
+      "definition": "X is the derivative of Y.",
+      "n_triples_base_run": 7,
+      "includes": ""
+    },
+    {
+      "name": "converges_to",
+      "definition": "X (series, sequence, integral) converges to Y.",
+      "n_triples_base_run": 7,
+      "includes": ""
+    },
+    {
+      "name": "is_analogous_to",
+      "definition": "X plays a role similar to Y in another setting.",
+      "n_triples_base_run": 7,
+      "includes": ""
+    },
+    {
+      "name": "is_computed_by",
+      "definition": "X is calculated using method Y.",
+      "n_triples_base_run": 6,
+      "includes": ""
+    },
+    {
+      "name": "governed_by_equation",
+      "definition": "X obeys the differential or difference equation Y.",
+      "n_triples_base_run": 6,
+      "includes": ""
+    },
+    {
+      "name": "has_fundamental_frequency",
+      "definition": "Y is the fundamental frequency of periodic signal X.",
+      "n_triples_base_run": 5,
+      "includes": ""
+    },
+    {
+      "name": "is_dual_of",
+      "definition": "X and Y mirror each other under a duality (time/frequency, analysis/synthesis).",
+      "n_triples_base_run": 5,
+      "includes": ""
+    },
+    {
+      "name": "is_reconstructed_by",
+      "definition": "The sampled signal X is recovered by process Y.",
+      "n_triples_base_run": 5,
+      "includes": ""
+    },
+    {
+      "name": "is_demodulated_by",
+      "definition": "The modulated signal X is recovered by demodulation method Y.",
+      "n_triples_base_run": 5,
+      "includes": ""
+    },
+    {
+      "name": "has_laplace_transform",
+      "definition": "Y is the Laplace transform of X.",
+      "n_triples_base_run": 5,
+      "includes": ""
+    }
+  ]
+}
